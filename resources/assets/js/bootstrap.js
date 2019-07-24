@@ -50,8 +50,8 @@ window.Pusher = require('pusher-js');
 window.Echo = new Echo({
     broadcaster: 'pusher',
     key: 'a54e72104abe0ed96a0b',
-    // cluster: 'eu',
-    // forceTLS: true,
+    cluster: 'eu',
+    forceTLS: true,
 });
 
 // Pusher.log = function (message) {
